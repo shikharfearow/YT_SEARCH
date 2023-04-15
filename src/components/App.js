@@ -12,7 +12,7 @@ class App extends React.Component{
     }
 
     searchVideos = async (term)=>{
-        const KEY = "AIzaSyAxLCwtJNXsWPaOExbTDJgzhaQw9xlz2yU";
+        const KEY = "AIzaSyB06HRVepitM9qaWHME6Q_L4RdxrjtAD0I";
         const result = await youtube.get("/search",{
             params:{
                 q:term,
